@@ -1,3 +1,7 @@
+.App {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .App-logo{
   height: 5vh;
 }
@@ -16,5 +20,22 @@
 
 .budfakinwhite {
   color: white !important;
+}
+
+.mainRow {
+  height: 90vh;
+}
+
+.mainRowTop {
+  font-weight: bold;
+  font-size: 72px;
+}
+
+.mainRowBot  {
+  font-size: 36px;
+}
+
+.nospacing {
+  line-height: 90%;
 }
 

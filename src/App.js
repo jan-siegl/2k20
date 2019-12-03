@@ -1,5 +1,6 @@
 import React from 'react';
 import logo2 from './Ephi dark - svg edited.svg';
+import ilustrace1 from './kys.png';
 import './App.css';
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -28,17 +29,22 @@ function App() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                     <Navbar.Collapse>
                         <Nav className="ml-auto">
-                            <Nav.Link href="#" style={stylesli}>Úvod</Nav.Link>
-                            <Nav.Link href="#" style={stylesli}>O nás</Nav.Link>
+                            <Nav.Link href="#uvod" style={stylesli}>Úvod</Nav.Link>
                             <Nav.Link href="#" style={stylesli}>Portfolio</Nav.Link>
+                            <Nav.Link href="#" style={stylesli}>O nás</Nav.Link>
                             <Nav.Link href="#" style={stylesli}>Kontakty</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
-                <container>
-                    <Row>
-                        <Col>zaujmou</Col>
-                        <Col>pravo</Col>
+                <container id="uvod">
+                    <Row className="mainRow justify-content-center">
+                        <Col className="text-left my-auto">
+                            <p className="mainRowTop nospacing">Tvoříme webovové stránky, které zaujmou</p>
+                            <p className="mainRowBot nospacing">Ať už potřebujete webovou stránku nebo kompletní brand design, jsme tu pro vás.</p>
+                        </Col>
+                        <Col className="my-auto">
+                            <img src={ilustrace1} className="img-fluid" alt="Ilustrace"/>
+                        </Col>
                     </Row>
                 </container>
             </header>
