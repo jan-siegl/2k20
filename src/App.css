@@ -7,7 +7,7 @@
 }
 
 .App-header {
-  background-image: url("./backg.jpg");
+  background-image: url("images/backg.jpg");
   background-repeat: no-repeat;
   background-size: 100vw auto;
   color: white;
@@ -37,5 +37,18 @@
 
 .nospacing {
   line-height: 90%;
+}
+
+.partHeader {
+  padding: 5vh 0;
+  text-decoration: underline;
+}
+
+#portfolio {
+  height: 100vh;
+}
+
+.nvmuz {
+  margin: auto;
 }
 
