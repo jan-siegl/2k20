@@ -1,11 +1,13 @@
 import React from 'react';
 import logo2 from './Ephi dark - svg edited.svg';
 import ilustrace1 from './kys.png';
+import portfoliofirst from './gpfc.png'
 import './App.css';
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import Carousel from "react-bootstrap/Carousel";
 
 function App() {
     let stylesbody = {
@@ -40,12 +42,25 @@ function App() {
                     <Row className="mainRow justify-content-center">
                         <Col className="text-left my-auto">
                             <p className="mainRowTop nospacing">Tvoříme webovové stránky, které zaujmou</p>
-                            <p className="mainRowBot nospacing">Ať už potřebujete webovou stránku nebo kompletní brand design, jsme tu pro vás.</p>
+                            <p className="mainRowBot nospacing">Ať už potřebujete webovou stránku nebo kompletní brand
+                                design, jsme tu pro vás.</p>
                         </Col>
                         <Col className="my-auto">
                             <img src={ilustrace1} className="img-fluid" alt="Ilustrace"/>
                         </Col>
                     </Row>
+                </container>
+                <container className="w-100 h-100" id="portfolio">
+                    <Carousel>
+                        <a href="#">
+                            <Carousel.Item>
+                                <img className="d-block w-100"
+                                     src={portfoliofirst}
+                                     alt="GPFC"
+                                     />
+                            </Carousel.Item>
+                        </a>
+                    </Carousel>
                 </container>
             </header>
         </div>
