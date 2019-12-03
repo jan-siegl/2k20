@@ -2,7 +2,9 @@ import React from 'react';
 import './App.css';
 import Portfolio from './components/portfolio';
 import Navigace from './components/navigace';
-import Uvod from './components/uvod'
+import Uvod from './components/uvod';
+import Onas from './components/onas';
+import Kontakty from "./components/kontakty";
 
 function App() {
     let stylesbody = {
@@ -15,6 +17,8 @@ function App() {
                <Navigace/>
                <Uvod/>
                <Portfolio/>
+               <Onas/>
+               <Kontakty/>
             </header>
         </div>
     );

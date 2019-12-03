@@ -24,8 +24,8 @@ export default class Navigace extends Component {
                     <Nav className="ml-auto">
                         <Nav.Link href="#uvod" style={stylesli}>Úvod</Nav.Link>
                         <Nav.Link href="#portfolio" style={stylesli}>Portfolio</Nav.Link>
-                        <Nav.Link href="#" style={stylesli}>O nás</Nav.Link>
-                        <Nav.Link href="#" style={stylesli}>Kontakty</Nav.Link>
+                        <Nav.Link href="#onas" style={stylesli}>O nás</Nav.Link>
+                        <Nav.Link href="#kontakty" style={stylesli}>Kontakty</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
