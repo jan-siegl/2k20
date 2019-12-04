@@ -1,28 +1,27 @@
 import Carousel from "react-spring-3d-carousel";
 import React, {Component} from "react";
-import portfoliofirst from "../images/gpfc.png";
-import random from "../images/random.png";
+import gpfc from "../images/gpfc.png";
+import azavs from "../images/azavs.png";
+import ephiweb from "../images/ephiweb.png"
+import panter from "../images/panter.png"
+import uuidv4 from "uuid";
 
 let slides = [
     {
-        key: 0,
-        content: <img className="w-100" src={portfoliofirst} alt="GPFC" />
+        key: uuidv4(),
+        content: <img src={gpfc} alt="GPFC" />
     },
     {
-        key: 1,
-        content: <img className="w-100" src={random} alt="random" />
+        key: uuidv4(),
+        content: <img src={azavs} alt="azavs.cz" />
     },
     {
-        key: 2,
-        content: <img className="w-100" src={portfoliofirst} alt="GPFC" />
+        key: uuidv4(),
+        content: <img src={ephiweb} alt="ephi" />
     },
     {
-        key: 3,
-        content: <img className="w-100" src={random} alt="random" />
-    },
-    {
-        key: 4,
-        content: <img className="w-100" src={random} alt="random" />
+        key: uuidv4(),
+        content: <img src={panter} alt="CK Panter" />
     }
 ];
 
@@ -31,7 +30,7 @@ export default class Portfolio extends Component {
         return (
             <div id="portfolio">
                 <h1 className="text-center partHeader">Naše projekty</h1>
-                <Carousel slides={slides} offsetRadius="1" goToSlide="0" showNavigation="true" />
+                <Carousel slides={slides} showNavigation="true" animationConfig="config.gentle" />
             </div>
         )
     }
