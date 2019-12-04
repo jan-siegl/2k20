@@ -5,6 +5,7 @@ import Navigace from './components/navigace';
 import Uvod from './components/uvod';
 import Onas from './components/onas';
 import Kontakty from "./components/kontakty";
+import Portfoliopage from "./components/portfoliopage";
 
 function App() {
     let stylesbody = {
