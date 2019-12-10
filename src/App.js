@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import Portfolio from './components/portfolio';
 import Navigace from './components/navigace';
-import Uvod from './components/uvod';
-import Onas from './components/onas';
-import Kontakty from "./components/kontakty";
+import {Route, Switch} from "react-router-dom";
 import Portfoliopage from "./components/portfoliopage";
+import Onaspage from "./components/onaspage";
+import Kontaktypage from "./components/kontaktypage";
+import Uvodpage from "./components/uvodpage";
+import Uvod from "./components/uvod";
 
 function App() {
     let stylesbody = {
@@ -13,14 +14,22 @@ function App() {
     };
 
     return (
-        <div className="App">
-            <header className="App-header" style={stylesbody}>
-               <Navigace/>
-               <Uvod/>
-               <Portfolio/>
-               <Onas/>
-               <Kontakty/>
-            </header>
+        <div className="App" style={stylesbody}>
+            <Navigace/>
+            <Switch>
+                <Route exact="true" path="/">
+                    <Uvodpage/>
+                </Route>
+                <Route path="/portfoliopage">
+                    <Portfoliopage/>
+                </Route>
+                <Route path="/onaspage">
+                    <Onaspage/>
+                </Route>
+                <Route path="/kontakty">
+                    <Kontaktypage/>
+                </Route>
+            </Switch>
         </div>
     );
 }

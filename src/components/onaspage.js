@@ -1,9 +1,9 @@
 import React, {Component} from "react";
 
-export default class Onas extends Component {
+export default class Onaspage extends Component {
     render() {
         return(
-            <container id="onas">
+            <container id="onaspage">
 
             </container>
         )

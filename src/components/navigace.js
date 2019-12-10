@@ -4,9 +4,13 @@ import Nav from "react-bootstrap/Nav";
 import React, {Component} from "react";
 import {
     Switch,
-    Route
+    Route,
+    Link
 } from "react-router-dom";
 import Portfoliopage from "./portfoliopage";
+import Onaspage from "./onaspage";
+import Kontaktypage from "./kontaktypage";
+import App from "../App";
 
 let stylesli = {
     color: 'white',
@@ -19,26 +23,21 @@ let stylesnav = {
 
 export default class Navigace extends Component {
     render() {
-        return(
-            <Navbar expand="md" sticky="top" className="paddingNav" style={stylesnav}>
-                <Navbar.Brand href="#">
-                    <img src={logo2} className="App-logo" alt="logo"/>
-                </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-                <Navbar.Collapse>
-                    <Nav className="ml-auto">
-                        <Nav.Link href="#uvod" style={stylesli}>Úvod</Nav.Link>
-                        <Nav.Link href="/portfolio" style={stylesli}>Portfolio</Nav.Link>
-                        <Nav.Link href="#onas" style={stylesli}>O nás</Nav.Link>
-                        <Nav.Link href="#kontakty" style={stylesli}>Kontakty</Nav.Link>
-                    </Nav>
-                    <Switch>
-                        <Route path="/portfolio">
-                            <Portfoliopage />
-                        </Route>
-                    </Switch>
-                </Navbar.Collapse>
-            </Navbar>
+        return (
+                <Navbar expand="md" sticky="top" className="paddingNav" style={stylesnav}>
+                    <Navbar.Brand href="#">
+                        <img src={logo2} className="App-logo" alt="logo"/>
+                    </Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+                    <Navbar.Collapse>
+                        <Nav className="ml-auto">
+                            <Link to="/" style={stylesli}>Úvod</Link>
+                            <Link to="/portfoliopage" style={stylesli}>Portfolio</Link>
+                            <Link to="/onaspage" style={stylesli}>O nás</Link>
+                            <Link to="/kontakty" style={stylesli}>Kontakty</Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Navbar>
         )
     }
 }
