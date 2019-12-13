@@ -3,14 +3,8 @@ import logo2 from "../images/Ephi dark - svg edited.svg";
 import Nav from "react-bootstrap/Nav";
 import React, {Component} from "react";
 import {
-    Switch,
-    Route,
     Link
 } from "react-router-dom";
-import Portfoliopage from "./portfoliopage";
-import Onaspage from "./onaspage";
-import Kontaktypage from "./kontaktypage";
-import App from "../App";
 
 let stylesli = {
     color: 'white',
