@@ -15,6 +15,11 @@ let stylesnav = {
     padding: '1% 1% 0 1%'
 };
 
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
 export default class Navigace extends Component {
     render() {
         return (
@@ -25,7 +30,7 @@ export default class Navigace extends Component {
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                     <Navbar.Collapse>
                         <Nav className="ml-auto">
-                            <Link to="/" style={stylesli}>Úvod</Link>
+                            <Link onclick={topFunction()} to="/" style={stylesli}>Úvod</Link>
                             <Link to="/portfoliopage" style={stylesli}>Portfolio</Link>
                             <Link to="/onaspage" style={stylesli}>O nás</Link>
                             <Link to="/kontakty" style={stylesli}>Kontakty</Link>
