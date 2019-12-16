@@ -7,8 +7,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {
     BrowserRouter as Router,
 } from "react-router-dom";
+import ScrollToTop from 'react-router-scroll-top'
 
-ReactDOM.render(<Router><App /></Router>, document.getElementById('root'));
+ReactDOM.render(<Router><ScrollToTop><App /></ScrollToTop></Router>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

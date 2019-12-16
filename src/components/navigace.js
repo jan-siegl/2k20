@@ -25,7 +25,7 @@ export default class Navigace extends Component {
         return (
                 <Navbar expand="md" sticky="top" className="paddingNav" style={stylesnav}>
                     <Navbar.Brand href="#">
-                        <img src={logo2} className="App-logo" alt="logo"/>
+                      <Link to="/"><img src={logo2} className="App-logo" alt="logo"/></Link>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                     <Navbar.Collapse>
