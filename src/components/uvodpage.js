@@ -9,9 +9,9 @@ export default class Uvodpage extends Component {
         return (
             <div>
                 <Uvod/>
-                <Portfolio/>
+                {/* <Portfolio/>
                 <Onas/>
-                <Kontakty/>
+                <Kontakty/>*/}
             </div>
         )
     }
