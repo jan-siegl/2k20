@@ -1,0 +1,18 @@
+.kostickaImg{
+  width: 100%;
+  opacity: 100%;
+}
+
+.kostickaOverlay{
+  opacity: 0;
+}
+
+.kostickaOverlay:hover{
+  opacity: 100%;
+}
+
+.kosticka:hover .kostickaImg{
+  width: 100%;
+  opacity: 20%;
+}
+
