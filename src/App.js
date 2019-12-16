@@ -16,25 +16,25 @@ const data = [
     {
         id: 1,
         jmeno: "GPFC",
-        text: "Lorem Ipsum",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.",
         image: gpfclogo
     },
     {
         id: 2,
         jmeno: "Azavs",
-        text: "Lorem Ipsum",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.",
         image: azavslogo
     },
     {
         id: 3,
         jmeno: "Ephi old design",
-        text: "Lorem Ipsum",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.",
         image: oldephilogo
     },
     {
         id: 4,
         jmeno: "CKPanter",
-        text: "Lorem Ipsum",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.",
         image: ckpanterlogo
     }
 ];

@@ -1,6 +1,8 @@
 import React, {Component} from "react";
 import Row from "react-bootstrap/Row";
 import Toast from "react-bootstrap/Toast";
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
 
 export default class Kosticka extends Component {
     constructor(props) {
@@ -13,7 +15,8 @@ export default class Kosticka extends Component {
 
     render() {
         let imgStyle = {
-            width: '100%'
+            width: '100%',
+            opacity: '50%'
         };
         let allStyle = {
             width: '40vw',
@@ -35,17 +38,18 @@ export default class Kosticka extends Component {
             };
         }
         return (
-            <div style={allStyle}>
-                <img
+            <Card bg="dark" className="text-center">
+                <Card.Img
+                    variant="top"
                     src={this.props.data.image} alt={this.props.data.jmeno}
-                    onMouseOver={() => this.setState({hovered: true})}
-                    onMouseOut={() => this.setState({hovered: false})}
                     style={imgStyle}
                 />
-                <div style={hoveredStyle}>
-
-                </div>
-            </div>
+                <Card.ImgOverlay>
+                    <Card.Title className="font-weight-bold">{this.props.data.jmeno}</Card.Title>
+                    <Card.Text>{this.props.data.text}</Card.Text>
+                    <Button variant="light" size="sm">Vice info</Button>
+                </Card.ImgOverlay>
+            </Card>
         )
     }
 }
