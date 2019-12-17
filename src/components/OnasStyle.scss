@@ -3,6 +3,26 @@
   background: linear-gradient(45deg, rgba(44,14,60,1) 0%, rgba(239,63,39,1) 100%);
 }
 
-.imgWidth{
-  width: 10vw;
+.containerCards{
+  display: flex;
+  justify-content: center;
+  margin: 5vh 0;
+}
+
+.kartickyOnas {
+  margin: 0 2vw;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-text {
+  text-align: center;
+  font-size: small;
+}
+
+.card-text h6{
+  text-align: center;
 }

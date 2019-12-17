@@ -11,32 +11,49 @@ export default class Onaspage extends Component {
     render() {
         return(
             <container id="onaspage">
-                <CardGroup>
-                    <Card style={{ width: '15rem' }}>
+                <div className="containerCards">
+                    <Card className="kartickyOnas" style={{ width: '15rem', border: 'none' }}>
                       <Card.Img
                         src={Headshot1}
                         alt="Headshot"
                       />
                       <Card.Body className="gradientOnas">
-                          <Card.Title>Adam Bárta</Card.Title>
+                          <Card.Title className="font-weight-bold">Adam Bárta</Card.Title>
                           <Card.Text>
+                              <h6>Graficky deigner</h6>
                               Grafikou se zabývá posledních několik let. Záleží mu na detailech a snaží se prosadit originalitu a jednoduchost.
+                           <br />
+                              <br />
                           </Card.Text>
                       </Card.Body>
                     </Card>
-                    <Card style={{ width: '15rem' }}>
+                    <Card className="kartickyOnas" style={{ width: '15rem', border: 'none' }}>
                         <Card.Img
                             src={Headshot2}
                             alt="Headshot"
                         />
+                        <Card.Body className="gradientOnas">
+                            <Card.Title className="font-weight-bold">Adam Bárta</Card.Title>
+                            <Card.Text>
+                                <h6>Graficky deigner</h6>
+                                Grafikou se zabývá posledních několik let. Záleží mu na detailech a snaží se prosadit originalitu a jednoduchost.
+                            </Card.Text>
+                        </Card.Body>
                     </Card>
-                    <Card style={{ width: '15rem' }}>
+                    <Card className="kartickyOnas" style={{ width: '15rem', border: 'none' }}>
                         <Card.Img
                             src={Headshot3}
                             alt="Headshot"
                         />
+                        <Card.Body className="gradientOnas">
+                            <Card.Title className="font-weight-bold">Adam Bárta</Card.Title>
+                            <Card.Text>
+                                <h6>Graficky deigner</h6>
+                                Grafikou se zabývá posledních několik let. Záleží mu na detailech a snaží se prosadit originalitu a jednoduchost.
+                            </Card.Text>
+                        </Card.Body>
                     </Card>
-                </CardGroup>
+                </div>
             </container>
         )
     }
