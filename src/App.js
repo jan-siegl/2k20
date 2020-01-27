@@ -16,7 +16,7 @@ const data = [
     {
         id: 1,
         jmeno: "GPFC - Parkour Praha",
-        text: "Web pro pražský parkourový klub GPFC s e-shopem a přihlašovacím systémem",
+        text: "Web a brand design pro pražský parkourový klub GPFC s e-shopem a přihlašovacím systémem",
         image: gpfclogo
     },
     {
