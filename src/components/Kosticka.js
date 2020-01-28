@@ -18,7 +18,7 @@ export default class Kosticka extends Component {
                 <Card.ImgOverlay className="kostickaOverlay">
                     <Card.Title className="font-weight-bold">{this.props.data.jmeno}</Card.Title>
                     <Card.Text>{this.props.data.text}</Card.Text>
-                    <Button variant="light" size="sm">Vice info</Button>
+                    <Button variant="light" size="sm" href={this.props.data.url}>Odkaz</Button>
                 </Card.ImgOverlay>
             </Card>
         )
