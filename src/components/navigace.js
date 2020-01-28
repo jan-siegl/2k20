@@ -23,7 +23,7 @@ function topFunction() {
 export default class Navigace extends Component {
     render() {
         return (
-                <Navbar expand="md" sticky="top" className="paddingNav" style={stylesnav}>
+                <Navbar expand="md" sticky="top" className="paddingNav navbar-dark" style={stylesnav}>
                     <Navbar.Brand href="#">
                       <Link to="/"><img src={logo2} className="App-logo" alt="logo"/></Link>
                     </Navbar.Brand>
