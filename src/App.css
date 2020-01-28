@@ -8,10 +8,11 @@
 
 .App {
   background-image: url("images/backg.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: 100vw auto;
   color: white;
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
 }
 
 

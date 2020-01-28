@@ -5,12 +5,14 @@
 
 .containerCards{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  margin: 5vh 0;
+  margin-top: 5vh;
 }
 
 .kartickyOnas {
   margin: 0 2vw;
+  margin-bottom: 5vh;
 }
 
 .card-title {
