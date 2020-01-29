@@ -23,14 +23,14 @@ function topFunction() {
 export default class Navigace extends Component {
     render() {
         return (
-                <Navbar expand="md" sticky="top" className="paddingNav navbar-dark" style={stylesnav}>
+                <Navbar collapseOnSelect expand="md" sticky="top" className="paddingNav navbar-dark" style={stylesnav}>
                     <Navbar.Brand href="#">
                       <Link to="/"><img src={logo2} className="App-logo" alt="logo"/></Link>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-                    <Navbar.Collapse>
+                    <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ml-auto">
-                            <Link onclick={topFunction()} to="/" style={stylesli}>Úvod</Link>
+                            <Link activeClassName="active" to="/" style={stylesli}>Úvod</Link>
                             <Link to="/portfoliopage" style={stylesli}>Portfolio</Link>
                             <Link to="/onaspage" style={stylesli}>O nás</Link>
                             <Link to="/kontakty" style={stylesli}>Kontakty</Link>

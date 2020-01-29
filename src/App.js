@@ -11,6 +11,7 @@ import gpfclogo from "./images/gpfc.png";
 import azavslogo from "./images/azavs.png";
 import oldephilogo from "./images/ephiweb.png";
 import ckpanterlogo from "./images/panter.png";
+import NavigaceWrap from "./components/navigaceWrap";
 
 const data = [
     {
@@ -50,7 +51,7 @@ function App() {
 
     return (
         <div className="App" style={stylesbody}>
-            <Navigace/>
+            <NavigaceWrap />
             <Switch>
                 <Route exact="true" path="/">
                     <Uvodpage/>
