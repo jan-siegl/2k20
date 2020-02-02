@@ -2,7 +2,8 @@
   margin: 0;
 }
 
-.App {
+html {
+  font-size: 24px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -30,15 +31,27 @@
 
 .mainRow {
   height: 90vh;
+
 }
 
-.mainRowTop {
+.mainRow h1 {
   font-weight: bold;
-  font-size: 72px;
+  font-size: 4rem;
 }
 
-.mainRowBot  {
-  font-size: 36px;
+.mainRow h2  {
+  font-size: 1.6rem;
+}
+
+@media (max-width : 420px) {
+
+  .mainRow h1 {
+    font-size: 2.5rem;
+  }
+
+  .mainRow h2  {
+    font-size: 1.3rem;
+  }
 }
 
 .nospacing {
