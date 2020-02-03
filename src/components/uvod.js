@@ -9,12 +9,12 @@ export default class Uvod extends Component {
         return(
             <container id="uvod">
                 <Row className="mainRow justify-content-center">
-                    <Col className="text-left my-auto">
-                        <p className="mainRowTop nospacing">Tvoříme webovové stránky, které zaujmou</p>
-                        <p className="mainRowBot nospacing">Ať už potřebujete webovou stránku nebo kompletní brand
-                            design, jsme tu pro vás.</p>
+                    <Col sm={12} xl className="text-left my-auto">
+                        <h1 className="nospacing">Tvoříme webovové stránky, které zaujmou</h1>
+                        <h2 className="">Ať už potřebujete webovou stránku nebo kompletní brand
+                            design, jsme tu pro vás.</h2>
                     </Col>
-                    <Col className="my-auto">
+                    <Col sm={12} xl className="my-auto">
                         <img src={ilustrace1} className="img-fluid" alt="Ilustrace"/>
                     </Col>
                 </Row>

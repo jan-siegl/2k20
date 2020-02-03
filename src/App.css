@@ -2,7 +2,8 @@
   margin: 0;
 }
 
-.App {
+html {
+  font-size: 24px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -30,15 +31,49 @@
 
 .mainRow {
   height: 90vh;
+
 }
 
-.mainRowTop {
+.mainRow h1 {
   font-weight: bold;
-  font-size: 72px;
+  font-size: 6.4vw;
 }
 
-.mainRowBot  {
-  font-size: 36px;
+.mainRow h2  {
+  font-size: 2.6vw;
+}
+
+@media (max-width : 768px) {
+
+  .mainRow h1 {
+    font-size: 3rem;
+  }
+
+  .mainRow h2  {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width : 420px) {
+
+  .mainRow h1 {
+    font-size: 2.16rem;
+  }
+
+  .mainRow h2  {
+    font-size: 1.08rem;
+  }
+}
+
+@media (max-width : 360px) {
+
+  .mainRow h1 {
+    font-size: 1.8rem;
+  }
+
+  .mainRow h2  {
+    font-size: 0.9rem;
+  }
 }
 
 .nospacing {
