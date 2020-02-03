@@ -36,21 +36,43 @@ html {
 
 .mainRow h1 {
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 6.4vw;
 }
 
 .mainRow h2  {
-  font-size: 1.6rem;
+  font-size: 2.6vw;
+}
+
+@media (max-width : 768px) {
+
+  .mainRow h1 {
+    font-size: 3rem;
+  }
+
+  .mainRow h2  {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width : 420px) {
 
   .mainRow h1 {
-    font-size: 2.5rem;
+    font-size: 2.16rem;
   }
 
   .mainRow h2  {
-    font-size: 1.3rem;
+    font-size: 1.08rem;
+  }
+}
+
+@media (max-width : 360px) {
+
+  .mainRow h1 {
+    font-size: 1.8rem;
+  }
+
+  .mainRow h2  {
+    font-size: 0.9rem;
   }
 }
 
