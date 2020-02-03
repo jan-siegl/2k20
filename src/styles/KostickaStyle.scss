@@ -1,0 +1,43 @@
+.kostickaImg{
+  width: 100%;
+  opacity: 100%;
+}
+
+.kostickaOverlay{
+  opacity: 0;
+}
+
+.kostickaOverlay:hover{
+  opacity: 100%;
+  background: rgb(44,14,60);
+  background: linear-gradient(0deg, rgba(44,14,60,0.5) 0%, rgba(239,63,39,0.5) 100%);
+  padding: 1vw;
+}
+
+.kosticka:hover .kostickaImg{
+  width: 100%;
+  opacity: 20%;
+}
+
+.overlayTitle {
+  font-size: 1rem;
+  margin: 0;
+  margin-bottom: 1vw;
+}
+
+.overlayText{
+  margin: 0 !important;
+}
+
+.odkazOverlay{
+  font-size: 0.5rem !important;
+  margin-bottom: 0.5rem;
+  width: auto;
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+}
+
+.buttonSpan{
+  opacity: 50%;
+}

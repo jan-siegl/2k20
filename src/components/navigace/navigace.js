@@ -1,11 +1,17 @@
-import Navbar from "react-bootstrap/Navbar";
-import logo2 from "../images/Ephi dark - svg edited.svg";
-import Nav from "react-bootstrap/Nav";
 import React, {Component} from "react";
 import {
     Link
 } from "react-router-dom";
 
+//komponenty
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+
+//logo ephi
+import logo2 from "../../images/Ephi dark - svg edited.svg";
+
+
+//styly nadefinovane
 let stylesli = {
     color: 'white',
     padding: '0 0 0 3vw',
@@ -14,11 +20,6 @@ let stylesli = {
 let stylesnav = {
     padding: '1% 1% 0 1%'
 };
-
-function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
 
 export default class Navigace extends Component {
     render() {

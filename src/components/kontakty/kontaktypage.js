@@ -1,9 +1,15 @@
 import React, {Component} from "react";
-import "./OnasStyle.scss";
+
+//styles
+import "../../styles/OnasStyle.scss";
+
+//komponenty
 import Card from "react-bootstrap/Card";
-import Headshot1 from "../images/avataaars (2).svg";
-import Headshot2 from "../images/avataaars.svg";
-import Headshot3 from "../images/avataaars (1).svg";
+
+//hedshoty
+import Headshot1 from "../../images/avataaars (2).svg";
+import Headshot2 from "../../images/avataaars.svg";
+import Headshot3 from "../../images/avataaars (1).svg";
 
 export default class Kontaktypage extends Component {
     render() {

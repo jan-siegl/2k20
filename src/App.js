@@ -1,18 +1,24 @@
 import React from 'react';
-import './App.css';
-import Navigace from './components/navigace';
 import {Route, Switch} from "react-router-dom";
-import Portfoliopage from "./components/portfoliopage";
-import Onaspage from "./components/onaspage";
-import Kontaktypage from "./components/kontaktypage";
-import Uvodpage from "./components/uvodpage";
-import Uvod from "./components/uvod";
+
+//css
+import './styles/App.css';
+
+//komponenty
+import Portfoliopage from "./components/portfolio/portfoliopage";
+import Onaspage from "./components/onas/onaspage";
+import Kontaktypage from "./components/kontakty/kontaktypage";
+import Uvodpage from "./components/mainpage/uvodpage";
+import NavigaceWrap from "./components/navigace/navigaceWrap";
+
+//loga
 import gpfclogo from "./images/gpfc.png";
 import azavslogo from "./images/azavs.png";
 import oldephilogo from "./images/ephiweb.png";
 import ckpanterlogo from "./images/panter.png";
-import NavigaceWrap from "./components/navigaceWrap";
 
+
+//data do portfolia
 const data = [
     {
         id: 1,

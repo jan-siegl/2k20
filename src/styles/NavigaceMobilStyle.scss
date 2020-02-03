@@ -1,3 +1,5 @@
+
+
 //wrap
 
 .wrapMenu {
@@ -15,11 +17,36 @@
 
 .overlay {
   width: 90vw;
-  height: 100vh;
+  height: 90vh;
+  display: flex;
 }
 
 .overlayOff {
   display: none;
+}
+
+//menu
+
+.navigaceMobilWrap{
+  list-style: none;
+  padding: 0;
+}
+
+.navigaceMobilWrap li {
+  padding: 2vh 0;
+
+}
+
+.navigaceMobilWrap a {
+  color: white !important;
+}
+
+.activeLink {
+  text-decoration: underline !important;
+}
+
+.navigaceMobilWrap Link {
+  color: white !important;
 }
 
 //animace ikona

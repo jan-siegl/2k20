@@ -1,10 +1,6 @@
-import Navbar from "react-bootstrap/Navbar";
-import logo2 from "../images/Ephi dark - svg edited.svg";
-import Nav from "react-bootstrap/Nav";
 import React, {Component} from "react";
-import {
-    Link
-} from "react-router-dom";
+
+//komponenty
 import NavigaceMobil from "./navigaceMobil";
 import Navigace from "./navigace";
 
@@ -20,8 +16,6 @@ export default class NavigaceWrap extends Component {
         window.addEventListener('resize', this.handleWindowSizeChange);
     }
 
-// make sure to remove the listener
-// when the component is not mounted anymore
     componentWillUnmount() {
         window.removeEventListener('resize', this.handleWindowSizeChange);
     }
@@ -33,7 +27,6 @@ export default class NavigaceWrap extends Component {
     render() {
         const { width } = this.state;
         const isMobile = width <= 500;
-        // the rest is the same...
 
         if (isMobile) {
             return (

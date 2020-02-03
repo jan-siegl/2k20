@@ -1,9 +1,9 @@
 import React, {Component} from "react";
-import Row from "react-bootstrap/Row";
-import Toast from "react-bootstrap/Toast";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import './KostickaStyle.scss';
+
+//style
+import '../../styles/KostickaStyle.scss';
 
 export default class Kosticka extends Component {
 
@@ -15,10 +15,10 @@ export default class Kosticka extends Component {
                     src={this.props.data.image} alt={this.props.data.jmeno}
                     className="kostickaImg"
                 />
-                <Card.ImgOverlay className="kostickaOverlay">
-                    <Card.Title className="font-weight-bold">{this.props.data.jmeno}</Card.Title>
-                    <Card.Text>{this.props.data.text}</Card.Text>
-                    <Button variant="light" size="sm" href={this.props.data.url}>Odkaz</Button>
+                <Card.ImgOverlay className="kostickaOverlay d-flex flex-column">
+                    <h5 className="font-weight-bold overlayTitle">{this.props.data.jmeno}</h5>
+                    <Card.Text className="overlayText">{this.props.data.text}</Card.Text>
+                    <a className="odkazOverlay mt-auto" href={this.props.data.url}>{this.props.data.url}</a>
                 </Card.ImgOverlay>
             </Card>
         )

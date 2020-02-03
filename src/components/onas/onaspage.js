@@ -1,11 +1,14 @@
 import React, {Component} from "react";
-import CardDeck from "react-bootstrap/CardDeck";
-import CardGroup from "react-bootstrap/CardGroup";
 import Card from "react-bootstrap/Card";
-import Headshot1 from "../images/avataaars (2).svg";
-import Headshot3 from "../images/avataaars (1).svg";
-import Headshot2 from "../images/avataaars.svg";
-import "./OnasStyle.scss";
+
+//style
+import "../../styles/OnasStyle.scss";
+
+//hedshoty
+import Headshot1 from "../../images/avataaars (2).svg";
+import Headshot3 from "../../images/avataaars (1).svg";
+import Headshot2 from "../../images/avataaars.svg";
+
 
 export default class Onaspage extends Component {
     render() {

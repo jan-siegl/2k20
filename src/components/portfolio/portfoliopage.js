@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import Kosticka from "./Kosticka";
-import Row from "react-bootstrap/Row";
 import CardColumns from "react-bootstrap/CardColumns";
 
 export default class Portfoliopage extends Component {
@@ -15,6 +14,8 @@ let StyleDeck = {
     margin: "5vw"
 };
 
+
+//dela jednotlive kostikcky
 class KostickyGenerator extends React.Component {
     render() {
         return (
