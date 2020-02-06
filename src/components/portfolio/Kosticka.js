@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 
 //style
 import '../../styles/KostickaStyle.scss';
@@ -18,7 +17,7 @@ export default class Kosticka extends Component {
                 <Card.ImgOverlay className="kostickaOverlay d-flex flex-column">
                     <h5 className="font-weight-bold overlayTitle">{this.props.data.jmeno}</h5>
                     <Card.Text className="overlayText">{this.props.data.text}</Card.Text>
-                    <a className="odkazOverlay mt-auto" href={this.props.data.url}>{this.props.data.url}</a>
+                    <a className="odkazOverlay mt-auto" target="_blank" href={this.props.data.url}>{this.props.data.url}</a>
                 </Card.ImgOverlay>
             </Card>
         )
