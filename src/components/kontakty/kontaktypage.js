@@ -16,7 +16,7 @@ export default class Kontaktypage extends Component {
         return(
             <container id="kontaktypage">
                 <div className="containerCards">
-                    <Card className="kartickyOnas" style={{width: '15rem', border: 'none'}}>
+                    <Card className="kartickyOnas" style={{width: '10rem', border: 'none'}}>
                         <Card.Img
                             src={Headshot1}
                             alt="Headshot"
@@ -32,7 +32,7 @@ export default class Kontaktypage extends Component {
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card className="kartickyOnas" style={{width: '15rem', border: 'none'}}>
+                    <Card className="kartickyOnas" style={{width: '10rem', border: 'none'}}>
                         <Card.Img
                             src={Headshot2}
                             alt="Headshot"
@@ -46,7 +46,7 @@ export default class Kontaktypage extends Component {
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card className="kartickyOnas" style={{width: '15rem', border: 'none'}}>
+                    <Card className="kartickyOnas" style={{width: '10rem', border: 'none'}}>
                         <Card.Img
                             src={Headshot3}
                             alt="Headshot"
