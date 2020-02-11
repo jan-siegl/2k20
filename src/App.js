@@ -10,6 +10,7 @@ import Onaspage from "./components/onas/onaspage";
 import Kontaktypage from "./components/kontakty/kontaktypage";
 import Uvodpage from "./components/mainpage/uvodpage";
 import NavigaceWrap from "./components/navigace/navigaceWrap";
+import PortfolioDetail from "./components/portfolio/PortfolioDetail";
 
 //loga
 import gpfclogo from "./images/gpfc.png";
@@ -19,41 +20,14 @@ import ckpanterlogo from "./images/panter.png";
 
 
 //data do portfolia
-const data = [
-    {
-        id: 1,
-        jmeno: "GPFC - Parkour Praha",
-        text: "Web a brand design pro pražský parkourový klub GPFC s e-shopem a přihlašovacím systémem",
-        image: gpfclogo,
-        url: "https://www.parkourpraha.cz/"
-    },
-    {
-        id: 2,
-        jmeno: "Azavs",
-        text: "Jednoduchá a minimalistická stránka pro stavební firmu Azavs s.r.o.",
-        image: azavslogo,
-        url: "http://azavs.cz/"
-    },
-    {
-        id: 3,
-        jmeno: "Původní stránka Ephi.cz",
-        text: "Náš původní design, od kterého jsme se posunuli směrem k přívětivějšímu a přehlednějšímu",
-        image: oldephilogo,
-        url: "https://ephi.cz/"
-    },
-    {
-        id: 4,
-        jmeno: "CKPanter",
-        text: "Wordpress stránka pro cestovní kancelář CKPanter s jednoduchým admin systémem pro snadné aktualizování a upravování",
-        image: ckpanterlogo,
-        url: "http://www.ckpanter.cz/"
-    }
-];
+import PortfoliData from "./components/PortfolioData";
 
 function App() {
     let stylesbody = {
         padding: '0 5vw'
     };
+
+    let data = PortfoliData;
 
     return (
         <div className="App" style={stylesbody}>
@@ -62,15 +36,20 @@ function App() {
                 <Route exact="true" path="/">
                     <Uvodpage/>
                 </Route>
-                <Route path="/portfoliopage">
+                <Route exact="true" path="/portfolio">
                     <Portfoliopage data={data}/>
                 </Route>
-                <Route path="/onaspage">
+                <Route path="/onas">
                     <Onaspage/>
                 </Route>
                 <Route path="/kontakty">
                     <Kontaktypage/>
                 </Route>
+                {
+                    data.map((data) => {
+                        return <Route exact="true" key={data.id} path={data.route} component={() => <PortfolioDetail jmeno={data.jmeno} text={data.text} />} />
+                    })
+                }
             </Switch>
         </div>
     );
