@@ -17,6 +17,7 @@ let PortfolioData = [
         route: "/azavs",
         jmeno: "Azavs",
         text: "Jednoduchá a minimalistická stránka pro stavební firmu Azavs s.r.o.",
+        textLong: "Jednoduchá a minimalistická stránka pro stavební firmu Azavs s.r.o.",
         image: azavslogo,
         url: "http://azavs.cz/"
     },

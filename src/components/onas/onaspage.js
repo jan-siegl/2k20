@@ -5,7 +5,7 @@ import Card from "react-bootstrap/Card";
 import "../../styles/OnasStyle.scss";
 
 //hedshoty
-import Headshot1 from "../../images/avataaars (2).svg";
+import Headshot1 from "../../images/bortok.jpg";
 import Headshot3 from "../../images/avataaars (1).svg";
 import Headshot2 from "../../images/avataaars.svg";
 

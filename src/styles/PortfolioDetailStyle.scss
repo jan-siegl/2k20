@@ -1,0 +1,22 @@
+h3 {
+  text-align: center;
+}
+
+.detailImg {
+  width: 40vw;
+  float: right;
+}
+
+.detailRow {
+  padding-top: 5vh;
+}
+
+@media (max-width: 480px) {
+
+  .detailImg {
+    display: block;
+    width: 80vw;
+    margin: 0 auto;
+    padding: 0;
+  }
+}

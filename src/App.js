@@ -47,7 +47,16 @@ function App() {
                 </Route>
                 {
                     data.map((data) => {
-                        return <Route exact="true" key={data.id} path={data.route} component={() => <PortfolioDetail jmeno={data.jmeno} text={data.text} />} />
+                        return <Route
+                            exact="true"
+                            key={data.id}
+                            path={data.route}
+                            component={() => <PortfolioDetail
+                                jmeno={data.jmeno}
+                                textLong={data.textLong}
+                                url={data.url}
+                                image={data.image}
+                            />} />
                     })
                 }
             </Switch>

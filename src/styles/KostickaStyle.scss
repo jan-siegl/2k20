@@ -44,8 +44,18 @@
 
 .coolButton{
   color: white;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
-.coolButton:hover{
+.vice {
+  color: white !important;
 }
+
+.vice:hover{
+  color: white !important;
+  text-decoration-color: white !important;
+}
+
+//buttoon
+
+
