@@ -9,7 +9,7 @@ export default class PortfolioDetail extends Component {
     render() {
         const {jmeno, textLong, url, image} = this.props;
         return (
-            <div>
+            <div className="portfolioDetail">
                 <h3>{jmeno}</h3>
                 <Row className="detailRow">
                     <Col className="">

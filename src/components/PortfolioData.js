@@ -9,6 +9,7 @@ let PortfolioData = [
         route: "/gpfc",
         jmeno: "GPFC - Parkour Praha",
         text: "Web a brand design pro pražský parkourový klub GPFC s e-shopem a přihlašovacím systémem",
+        textLong: "Jednoduchá a minimalistická stránka pro stavební firmu Azavs s.r.o.",
         image: gpfclogo,
         url: "https://www.parkourpraha.cz/"
     },
@@ -26,6 +27,7 @@ let PortfolioData = [
         route: "/ephicz",
         jmeno: "Původní stránka Ephi.cz",
         text: "Náš původní design, od kterého jsme se posunuli směrem k přívětivějšímu a přehlednějšímu",
+        textLong: "Jednoduchá a minimalistická stránka pro stavební firmu Azavs s.r.o.",
         image: oldephilogo,
         url: "https://ephi.cz/"
     },
@@ -34,6 +36,7 @@ let PortfolioData = [
         route: "/ckpanter",
         jmeno: "CKPanter",
         text: "Wordpress stránka pro cestovní kancelář CKPanter s jednoduchým admin systémem pro snadné aktualizování a upravování",
+        textLong: "Jednoduchá a minimalistická stránka pro stavební firmu Azavs s.r.o.",
         image: ckpanterlogo,
         url: "http://www.ckpanter.cz/"
     }

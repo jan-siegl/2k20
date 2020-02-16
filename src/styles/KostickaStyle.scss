@@ -48,12 +48,19 @@
 }
 
 .vice {
+  font-size: medium;
   color: white !important;
+  border: 2px solid white;
+  border-radius: 5%;
+  width: 20%;
+  margin-top: auto;
+  margin-bottom: 5%;
 }
 
 .vice:hover{
-  color: white !important;
-  text-decoration-color: white !important;
+  color: black !important;
+  text-decoration: none !important;
+  background-color: white;
 }
 
 //buttoon
