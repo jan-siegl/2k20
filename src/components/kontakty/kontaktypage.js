@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 
 //styles
-import "../../styles/OnasStyle.scss";
+import "../../styles/KontaktyStylr.scss";
 
 //komponenty
 import Card from "react-bootstrap/Card";

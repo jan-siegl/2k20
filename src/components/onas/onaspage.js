@@ -1,5 +1,7 @@
 import React, {Component} from "react";
 import Card from "react-bootstrap/Card";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 //style
 import "../../styles/OnasStyle.scss";
@@ -12,52 +14,68 @@ import Headshot2 from "../../images/avataaars.svg";
 
 export default class Onaspage extends Component {
     render() {
-        return(
-            <container id="onaspage">
-                <div className="containerCards">
-                    <Card className="kartickyOnas" style={{ width: '10rem', border: 'none' }}>
-                      <Card.Img
-                        src={Headshot1}
-                        alt="Headshot"
-                      />
-                      <Card.Body className="gradientOnas">
-                          <Card.Title className="font-weight-bold">Adam Bárta</Card.Title>
-                          <Card.Text>
-                              <h6>Graficky deigner</h6>
-                              Grafikou se zabývá posledních několik let. Záleží mu na detailech a snaží se prosadit originalitu a jednoduchost.
-                           <br />
-                              <br />
-                          </Card.Text>
-                      </Card.Body>
-                    </Card>
-                    <Card className="kartickyOnas" style={{ width: '10rem', border: 'none' }}>
-                        <Card.Img
+        return (
+            <div className="onaspage">
+                <Row className="justify-content-center onasPageRow">
+                    <Col>
+                        <img
+                            alt="hedshot"
+                            src={Headshot1}
+                            className="onasImg"
+                        />
+                    </Col>
+                    <Col>
+                        <div className="onasContent">
+                            <h3>Adam Barta</h3>
+                            <p className="onasText">
+                                Hi! I'm a highschool student studying web development, programming and vector art. I have also been working as writer, video producer and game critic in Czech magazine IndianTVCZ for 3 years now.
+
+                                Although I'm a student I spend a lot of free time working on my own projects. Such as websites, videogames, hardware projects and more. I also make digital art - mainly vector illustrations and logos or UI/UX concepts. <br/>
+                                <a href="www.pleb.com">lnkedn</a><br/>
+                                <a href="www.pleb.com">ddddd</a>
+                            </p>
+                        </div>
+                    </Col>
+                </Row>
+                <Row className="justify-content-center onasPageRow">
+                    <Col>
+                        <img
+                            alt="hedshot"
                             src={Headshot2}
-                            alt="Headshot"
+                            className="onasImg"
                         />
-                        <Card.Body className="gradientOnas">
-                            <Card.Title className="font-weight-bold">Adam Bárta</Card.Title>
-                            <Card.Text>
-                                <h6>Graficky deigner</h6>
-                                Grafikou se zabývá posledních několik let. Záleží mu na detailech a snaží se prosadit originalitu a jednoduchost.
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                    <Card className="kartickyOnas" style={{ width: '10rem', border: 'none' }}>
-                        <Card.Img
+                    </Col>
+                    <Col>
+                        <div className="onasContent">
+                            <h3>Adam Barta</h3>
+                            <p className="onasText">
+                                Je to pleb <br/>
+                                <a href="www.pleb.com">lnkedn</a><br/>
+                                <a href="www.pleb.com">ddddd</a>
+                            </p>
+                        </div>
+                    </Col>
+                </Row>
+                <Row className="justify-content-center onasPageRow">
+                    <Col>
+                        <img
+                            alt="hedshot"
                             src={Headshot3}
-                            alt="Headshot"
+                            className="onasImg"
                         />
-                        <Card.Body className="gradientOnas">
-                            <Card.Title className="font-weight-bold">Adam Bárta</Card.Title>
-                            <Card.Text>
-                                <h6>Graficky deigner</h6>
-                                Grafikou se zabývá posledních několik let. Záleží mu na detailech a snaží se prosadit originalitu a jednoduchost.
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </div>
-            </container>
+                    </Col>
+                    <Col>
+                        <div className="onasContent">
+                            <h3>Adam Barta</h3>
+                            <p className="onasText">
+                                Je to pleb <br/>
+                                <a href="www.pleb.com">lnkedn</a><br/>
+                                <a href="www.pleb.com">ddddd</a>
+                            </p>
+                        </div>
+                    </Col>
+                </Row>
+            </div>
         )
     }
 }

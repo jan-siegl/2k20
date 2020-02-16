@@ -1,38 +1,19 @@
-.onaspage {
-  margin: 0 20vw;
-}
-
-.onasPageRow {
-  margin: 10vh 0;
-}
-
-.onasContent {
-  height: auto;
-}
-
-.onasText {
-  padding: 1rem 5vw;
-  text-align: center;
-}
-
-.onasImg {
-  width: 50%;
-  border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
-
 .gradientOnas{
   background: rgb(44,14,60);
   background: linear-gradient(45deg, rgba(44,14,60,1) 0%, rgba(239,63,39,1) 100%);
 }
 
+.containerCards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
 .kartickyOnas {
-  margin: auto;
+  margin: 0 2vw;
+  margin-bottom: 5vh;
+
 }
 
 .card-title {
