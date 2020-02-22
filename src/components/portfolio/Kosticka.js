@@ -22,7 +22,10 @@ export default class Kosticka extends Component {
                 <Card.ImgOverlay className="kostickaOverlay d-flex flex-column">
                     <h5 className="font-weight-bold overlayTitle">{this.props.data.jmeno}</h5>
                     <Card.Text className="overlayText">{this.props.data.text}</Card.Text>
-                    <Link to={this.props.data.route} className="vice mx-auto">Více</Link>
+                    <a className="vice mx-auto" href={this.props.data.url} target="_blank">Navštívit</a>
+                    {
+                        //<Link to={this.props.data.route} className="vice mx-auto">Více</Link>
+                    }
             </Card.ImgOverlay>
             </Card>
         )
