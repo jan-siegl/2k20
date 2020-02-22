@@ -16,65 +16,70 @@ export default class Onaspage extends Component {
     render() {
         return (
             <div className="onaspage">
-                <Row className="justify-content-center onasPageRow">
-                    <Col>
-                        <img
-                            alt="hedshot"
-                            src={Headshot1}
-                            className="onasImg"
-                        />
-                    </Col>
-                    <Col>
-                        <div className="onasContent">
-                            <h3>Adam Barta</h3>
+                <div className="person1">
+                    <Row className="onasContent">
+                        <Col>
+                            <img
+                                alt="hedshot"
+                                src={Headshot1}
+                                className="onasImg"
+                            /></Col>
+                        <Col>
+                            <h4 className="text-center">Adam Bárta</h4>
                             <p className="onasText">
-                                Hi! I'm a highschool student studying web development, programming and vector art. I have also been working as writer, video producer and game critic in Czech magazine IndianTVCZ for 3 years now.
-
-                                Although I'm a student I spend a lot of free time working on my own projects. Such as websites, videogames, hardware projects and more. I also make digital art - mainly vector illustrations and logos or UI/UX concepts. <br/>
-                                <a href="www.pleb.com">lnkedn</a><br/>
-                                <a href="www.pleb.com">ddddd</a>
+                                Herní kritik, video producer, autor pro český herní magazín IndianTV, ale zejména náš
+                                kreativní grafik. Web development již dlouho není jen jeho hobby. To je Adam Bárta.<br/>
+                                <a href="https://www.linkedin.com/in/adam-b%C3%A1rta-ab7822192/" target="_blank">Linkedin</a>
+                                <a href="https://github.com/PeanutButte7" target="_blank">GitHub</a>
+                                <a href="https://www.adam-barta.com/" target="_blank">adam-barta.com</a>
                             </p>
-                        </div>
-                    </Col>
-                </Row>
-                <Row className="justify-content-center onasPageRow">
-                    <Col>
-                        <img
-                            alt="hedshot"
-                            src={Headshot2}
-                            className="onasImg"
-                        />
-                    </Col>
-                    <Col>
-                        <div className="onasContent">
-                            <h3>Adam Barta</h3>
-                            <p className="onasText">
-                                Je to pleb <br/>
-                                <a href="www.pleb.com">lnkedn</a><br/>
-                                <a href="www.pleb.com">ddddd</a>
-                            </p>
-                        </div>
-                    </Col>
-                </Row>
-                <Row className="justify-content-center onasPageRow">
-                    <Col>
-                        <img
-                            alt="hedshot"
-                            src={Headshot3}
-                            className="onasImg"
-                        />
-                    </Col>
-                    <Col>
-                        <div className="onasContent">
-                            <h3>Adam Barta</h3>
-                            <p className="onasText">
-                                Je to pleb <br/>
-                                <a href="www.pleb.com">lnkedn</a><br/>
-                                <a href="www.pleb.com">ddddd</a>
-                            </p>
-                        </div>
-                    </Col>
-                </Row>
+                        </Col>
+                    </Row>
+                </div>
+                <div className="person1">
+                    <Row className="justify-content-center onasPageRow">
+                        <Col>
+                            <img
+                                alt="hedshot"
+                                src={Headshot2}
+                                className="onasImg"
+                            />
+                        </Col>
+                        <Col>
+                            <div className="onasContent">
+                                <h3>Jan Siegl</h3>
+                                <p className="onasText">
+                                    Je <br/>to<br/> god <br/>...no more to say. <br/>
+                                    <a href="https://www.linkedin.com/in/adam-b%C3%A1rta-ab7822192/" target="_blank">Linkedin</a>
+                                    <a href="https://github.com/PeanutButte7" target="_blank">GitHub</a>
+                                    <a href="https://www.adam-barta.com/" target="_blank">adam-barta.com</a>
+                                </p>
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
+                <div className="person1">
+                    <Row className="justify-content-center onasPageRow">
+                        <Col>
+                            <img
+                                alt="hedshot"
+                                src={Headshot3}
+                                className="onasImg"
+                            />
+                        </Col>
+                        <Col>
+                            <div className="onasContent">
+                                <h3>Adam Tretera</h3>
+                                <p className="onasText">
+                                    S nejvetšíma zkušenostma je to Adam kdo vrací náš tým do reality a hlída dodržování termínů a požadavků. Již od mala nadaný v mnoha oblastech, zejména exceluje ve web developmentu.<br/>
+                                    <a href="https://www.linkedin.com/in/adam-b%C3%A1rta-ab7822192/" target="_blank">Linkedin</a>
+                                    <a href="https://github.com/PeanutButte7" target="_blank">GitHub</a>
+                                    <a href="https://www.adam-barta.com/" target="_blank">adam-barta.com</a>
+                                </p>
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
             </div>
         )
     }

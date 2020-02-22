@@ -21,6 +21,9 @@ export default class PortfolioDetail extends Component {
                         <p>
                             {textLong}
                         </p>
+                        <div className="detailLinkOut text-center my-auto">
+                            <a href={url} target="_blank">{url}</a>
+                        </div>
                     </Col>
                 </Row>
             </div>
