@@ -30,8 +30,9 @@ export default class Onaspage extends Component {
                                 kreativní grafik. Web development již dlouho není jen jeho hobby. To je Adam Bárta.<br/>
                                 <a href="https://www.linkedin.com/in/adam-b%C3%A1rta-ab7822192/"
                                    target="_blank">Linkedin</a>
-                                <a href="https://github.com/PeanutButte7" target="_blank">GitHub</a>
-                                <a href="https://www.adam-barta.com/" target="_blank" className="br">adam-barta.com</a>
+                                <a href="https://github.com/PeanutButte7" target="_blank">GitHub</a><div className="br">
+                                <a href="https://www.adam-barta.com/" target="_blank" className="webLink">adam-barta.com</a></div>
+                                <a href="https://www.adam-barta.com/" target="_blank" className="mobileNo">adam-barta.com</a>
                             </p>
                         </Col>
                     </Row>

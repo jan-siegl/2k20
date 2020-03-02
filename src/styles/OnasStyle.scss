@@ -41,6 +41,10 @@
   margin-bottom: 2vh;
 }
 
+.br {
+  display: none;
+}
+
 .gradientOnas{
   background: rgb(44,14,60);
   background: linear-gradient(45deg, rgba(44,14,60,1) 0%, rgba(239,63,39,1) 100%);
@@ -61,6 +65,14 @@
   }
 
   .br {
+    display: block;
+  }
 
+  .webLink {
+    padding: 0 !important;
+  }
+
+  .mobileNo {
+    display: none;
   }
 }

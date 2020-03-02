@@ -59,6 +59,9 @@ function App() {
                             />} />
                     })
                 }
+                <Route>
+                    <Uvodpage/>
+                </Route>
             </Switch>
         </div>
     );
