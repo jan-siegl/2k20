@@ -1,6 +1,6 @@
 .kostickaImg{
   width: 100%;
-  opacity: 100%;
+  opacity: 1;
 }
 
 .kostickaOverlay{
@@ -8,7 +8,7 @@
 }
 
 .kostickaOverlay:hover{
-  opacity: 100%;
+  opacity: 1;
   background: rgb(44,14,60);
   background: linear-gradient(0deg, rgba(44,14,60,0.5) 0%, rgba(239,63,39,0.5) 100%);
   padding: 1vw;
@@ -16,7 +16,7 @@
 
 .kosticka:hover .kostickaImg{
   width: 100%;
-  opacity: 20%;
+  opacity: 0.2;
 }
 
 .overlayTitle {
@@ -39,7 +39,7 @@
 }
 
 .buttonSpan{
-  opacity: 50%;
+  opacity: 0.5;
 }
 
 .coolButton{

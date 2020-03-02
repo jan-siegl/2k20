@@ -41,7 +41,7 @@ export default class NavigaceMobil extends Component {
                     <ul className="text-center mx-auto my-auto navigaceMobilWrap">
                         <li><Link to="/" onClick={() => this.setState({active: !this.state.active})}>Úvod</Link></li>
                         <li><Link to="/portfolio" onClick={() => this.setState({active: !this.state.active})}>Portfolio</Link></li>
-                        <li><Link to="/onas" onClick={() => this.setState({active: !this.state.active})}>O nás</Link></li>
+                        <li><Link to="/onas" onClick={() => this.setState({active: !this.state.active})}>Náš tým</Link></li>
                         <li><Link to="/kontakty" onClick={() => this.setState({active: !this.state.active})}>Kontakty</Link></li>
                     </ul>
                 </div>

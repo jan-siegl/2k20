@@ -1,14 +1,12 @@
 .onaspage {
-  margin: 0 5vw;
+  margin: 0 25vw;
   padding-bottom: 5vh;
 }
 
 .person1{
   margin-top: 5vh;
-  background: rgb(44,14,60);
-  background: linear-gradient(238deg, rgba(44,14,60,1) 0%, rgba(239,63,39,1) 100%);
   border-radius: 20px;
-  padding: 2% 1%;
+  padding: 1% 0.5%;
 }
 
 .onasPageRow {
@@ -35,39 +33,34 @@
 }
 
 .onasImg {
-  width: 50%;
+  width: 30%;
   border-radius: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 2vh;
 }
-
-
-
 
 .gradientOnas{
   background: rgb(44,14,60);
   background: linear-gradient(45deg, rgba(44,14,60,1) 0%, rgba(239,63,39,1) 100%);
 }
 
-.kartickyOnas {
-  margin: auto;
-}
+@media (max-width: 480px) {
 
-.card-title {
-  text-align: center;
-  font-weight: bold;
-}
+  .onaspage {
+    margin: 0 5vw;
+  }
 
-.card-text {
-  text-align: center;
-  font-size: small;
-}
+  .onasContent h4 {
+    font-size: x-large;
+  }
 
-.card-text h6{
-  text-align: center;
-}
+  .onasText {
+    font-size: medium;
+  }
 
-.card-img {
-  background: #F0F0F2;
+  .br {
+
+  }
 }
