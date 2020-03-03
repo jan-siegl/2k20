@@ -48,7 +48,7 @@ export default class Onaspage extends Component {
                             <div className="onasContent">
                                 <h4>Jan Siegl</h4>
                                 <p className="onasText">
-                                    Je <br/>to<br/> god <br/>...no more to say. <br/>
+                                    Kreativní student, hobby fotograf, ale hlavně člověk kterého baví tvořit. Pro Honzu je tvorba webů zábavou. <br/>
                                     <a href="https://www.linkedin.com/" target="_blank">Linkedin</a>
                                     <a href="https://github.com/ephicz" target="_blank">GitHub</a>
                                 </p>
