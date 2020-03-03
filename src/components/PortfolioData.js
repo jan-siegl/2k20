@@ -29,7 +29,7 @@ let PortfolioData = [
         text: "Náš původní design, od kterého jsme se posunuli směrem k přívětivějšímu a přehlednějšímu",
         textLong: "Náš původní design, od kterého jsme se posunuli směrem k přívětivějšímu a přehlednějšímu",
         image: oldephilogo,
-        url: "https://ephi.cz/"
+        url: "https://ephi.cz/old"
     },
     {
         id: 4,
