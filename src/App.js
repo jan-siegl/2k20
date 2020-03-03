@@ -12,13 +12,6 @@ import Uvodpage from "./components/mainpage/uvodpage";
 import NavigaceWrap from "./components/navigace/navigaceWrap";
 import PortfolioDetail from "./components/portfolio/PortfolioDetail";
 
-//loga
-import gpfclogo from "./images/gpfc.png";
-import azavslogo from "./images/azavs.png";
-import oldephilogo from "./images/ephiweb.png";
-import ckpanterlogo from "./images/panter.png";
-
-
 //data do portfolia
 import PortfoliData from "./components/PortfolioData";
 

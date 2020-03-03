@@ -1,9 +1,9 @@
 import Carousel from "react-spring-3d-carousel";
 import React, {Component} from "react";
-import gpfc from "../../images/gpfc.png";
-import azavs from "../../images/azavs.png";
-import ephiweb from "../../images/ephiweb.png"
-import panter from "../../images/panter.png"
+import gpfc from "../../images/gpfc.jpg";
+import azavs from "../../images/azavs.jpg";
+import ephiweb from "../../images/ephiweb.jpg"
+import panter from "../../images/panter.jpg"
 import uuidv4 from "uuid";
 
 let slides = [

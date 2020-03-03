@@ -1,7 +1,7 @@
-import gpfclogo from "../images/gpfc.png";
-import azavslogo from "../images/azavs.png";
-import oldephilogo from "../images/ephiweb.png";
-import ckpanterlogo from "../images/panter.png";
+import gpfclogo from "../images/gpfc.jpg";
+import azavslogo from "../images/azavs.jpg";
+import oldephilogo from "../images/ephiweb.jpg";
+import ckpanterlogo from "../images/panter.jpg";
 
 let PortfolioData = [
     {
