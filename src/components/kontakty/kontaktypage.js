@@ -26,7 +26,7 @@ export default class Kontaktypage extends Component {
                             <Card.Text>
                                 <h6>Grafický designér</h6>
                                 Email: adam.barta@ephi.cz
-                                Telefon: +420 777 134 231
+                                Telefon: +420 602 481 116
                                 <br/>
                                 <br/>
                             </Card.Text>
@@ -38,11 +38,11 @@ export default class Kontaktypage extends Component {
                             alt="Headshot"
                         />
                         <Card.Body className="gradientOnas">
-                            <Card.Title className="font-weight-bold">Adam Bárta</Card.Title>
+                            <Card.Title className="font-weight-bold">Jan Siegl</Card.Title>
                             <Card.Text>
                                 <h6>Front-end vývojář</h6>
-                                Email: adam.tretera@ephi.cz
-                                Telefon: +420 777 134 231
+                                Email: jan.siegl@ephi.cz
+                                Telefon: +420 720 181 778
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -52,11 +52,11 @@ export default class Kontaktypage extends Component {
                             alt="Headshot"
                         />
                         <Card.Body className="gradientOnas">
-                            <Card.Title className="font-weight-bold">Adam Bárta</Card.Title>
+                            <Card.Title className="font-weight-bold">Adam Tretera</Card.Title>
                             <Card.Text>
                                 <h6>Front-end vývojář</h6>
-                                Email: jan.siegl@ephi.cz
-                                Telefon: +420 777 134 231
+                                Email: adam.tretera@ephi.cz
+                                Telefon: +420 702 155 702
                             </Card.Text>
                         </Card.Body>
                     </Card>
