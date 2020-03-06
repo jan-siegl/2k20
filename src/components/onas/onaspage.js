@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
@@ -29,10 +28,10 @@ export default class Onaspage extends Component {
                                 Herní kritik, video producer, autor pro český herní magazín IndianTV, ale zejména náš
                                 kreativní grafik. Web development již dlouho není jen jeho hobby. To je Adam Bárta.<br/>
                                 <a href="https://www.linkedin.com/in/adam-b%C3%A1rta-ab7822192/"
-                                   target="_blank">Linkedin</a>
-                                <a href="https://github.com/PeanutButte7" target="_blank">GitHub</a><div className="br">
-                                <a href="https://www.adam-barta.com/" target="_blank" className="webLink">adam-barta.com</a></div>
-                                <a href="https://www.adam-barta.com/" target="_blank" className="mobileNo">adam-barta.com</a>
+                                   target="_blank" rel="noopener noreferrer">Linkedin</a>
+                                <a href="https://github.com/PeanutButte7" target="_blank" rel="noopener noreferrer">GitHub</a><div className="br">
+                                <a href="https://www.adam-barta.com/" target="_blank" rel="noopener noreferrer" className="webLink">adam-barta.com</a></div>
+                                <a href="https://www.adam-barta.com/" target="_blank" rel="noopener noreferrer" className="mobileNo">adam-barta.com</a>
                             </p>
                         </Col>
                     </Row>
@@ -49,8 +48,8 @@ export default class Onaspage extends Component {
                                 <h4>Jan Siegl</h4>
                                 <p className="onasText">
                                     Kreativní student, hobby fotograf, ale hlavně člověk kterého baví tvořit. Pro Honzu je tvorba webů zábavou. <br/>
-                                    <a href="https://www.linkedin.com/" target="_blank">Linkedin</a>
-                                    <a href="https://github.com/ephicz" target="_blank">GitHub</a>
+                                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+                                    <a href="https://github.com/ephicz" target="_blank" rel="noopener noreferrer">GitHub</a>
                                 </p>
                             </div>
                         </Col>
@@ -70,8 +69,8 @@ export default class Onaspage extends Component {
                                     S nejvetšíma zkušenostma je to Adam kdo vrací náš tým do reality a hlída dodržování
                                     termínů a požadavků. Již od mala nadaný v mnoha oblastech, zejména exceluje ve web
                                     developmentu.<br/>
-                                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Linkedin</a>
-                                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">GitHub</a>
+                                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">Linkedin</a>
+                                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">GitHub</a>
                                 </p>
                             </div>
                         </Col>
