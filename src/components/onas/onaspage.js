@@ -25,8 +25,7 @@ export default class Onaspage extends Component {
                             />
                             <h4 className="text-center">Adam Bárta</h4>
                             <p className="onasText">
-                                Herní kritik, video producer, autor pro český herní magazín IndianTV, ale zejména náš
-                                kreativní grafik. Web development již dlouho není jen jeho hobby. To je Adam Bárta.<br/>
+                                Grafik, webový vývojář, copywriter a redaktor pro český herní magazín Indian. Vývoj webů pro něj už dávno není jen koníčkem. Učí se ty nejnovější technologie, aby mohl pomáhat vyvíjet flexibilní a kvalitní stránky.<br/>
                                 <a href="https://www.linkedin.com/in/adam-b%C3%A1rta-ab7822192/"
                                    target="_blank" rel="noopener noreferrer">Linkedin</a>
                                 <a href="https://github.com/PeanutButte7" target="_blank" rel="noopener noreferrer">GitHub</a><div className="br">
@@ -47,7 +46,9 @@ export default class Onaspage extends Component {
                             <div className="onasContent">
                                 <h4>Jan Siegl</h4>
                                 <p className="onasText">
-                                    Kreativní student, hobby fotograf, ale hlavně člověk kterého baví tvořit. Pro Honzu je tvorba webů zábavou. <br/>
+                                    Nadšenec do technologií a příležitostný fotograf, který si našel zálibu ve vývoji webových stránek. Rád
+                                    se pouští do různých, často ambiciózních, projektů. Přičemž hlídá, aby zbytek týmu dodržoval
+                                    stanovené termíny. <br/>
                                     <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">Linkedin</a>
                                     <a href="https://github.com/ephicz" target="_blank" rel="noopener noreferrer">GitHub</a>
                                 </p>
@@ -66,9 +67,8 @@ export default class Onaspage extends Component {
                             <div className="onasContent">
                                 <h4>Adam Tretera</h4>
                                 <p className="onasText">
-                                    S nejvetšíma zkušenostma je to Adam kdo vrací náš tým do reality a hlída dodržování
-                                    termínů a požadavků. Již od mala nadaný v mnoha oblastech, zejména exceluje ve web
-                                    developmentu.<br/>
+                                    I jako vývojář se na naše projekty Adam dívá z trochu jiné stránky. Zaměřuje se na marketing,
+                                    komunikaci s klienty a je zároveň nejzkušenějším členem týmu.<br/>
                                     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">Linkedin</a>
                                     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">GitHub</a>
                                 </p>
